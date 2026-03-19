@@ -70,4 +70,9 @@
 		"en"	"{darkred}[Moon]{default} Preferred weapon updated! The change applies starting next round."
 		"ro"	"{darkred}[Moon]{default} Arma preferata a fost actualizata! Schimbarea se aplica incepand de runda viitoare."
 	}
+	"Only_Team"
+	{
+		"en"	"{darkred}[Moon]{default} You must be in a team to use this command!"
+		"ro"	"{darkred}[Moon]{default} Trebuie sa fii intr-o echipa pentru a folosi aceasta comanda!"
+	}
 }
