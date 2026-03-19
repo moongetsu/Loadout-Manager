@@ -31,7 +31,7 @@
 ## 🛠️ Requirements
 
 - **[SourceMod 1.10+](https://www.sourcemod.net/downloads.php)**
-- **[MultiColors](https://github.com/Bara/MultiColors)** (Include for compilation)
+- **[MultiColors](https://github.com/Bara/Multi-Colors)** (Include for compilation)
 
 ---
 
