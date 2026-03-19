@@ -1,0 +1,73 @@
+"Phrases"
+{
+	"Loadout_Title"
+	{
+		"en"	"★ WEAPONS LOADOUT ★"
+		"ro"	"★ WEAPONS LOADOUT ★"
+	}
+	"Loadout_Desc"
+	{
+		"en"	"Choose your desired equipment\nIt will apply starting next round"
+		"ro"	"Alege-ti echipamentul dorit\nSe va aplica incepand de runda viitoare"
+	}
+	"Item_Starter_P2000"
+	{
+		"en"	"» Starting Pistol: [P2000]"
+		"ro"	"» Pistol Start: [P2000]"
+	}
+	"Item_Starter_USP"
+	{
+		"en"	"» Starting Pistol: [USP-S]"
+		"ro"	"» Pistol Start: [USP-S]"
+	}
+	"Item_Sidearm_FiveSeven"
+	{
+		"en"	"» Secondary Pistol: [Five-Seven]"
+		"ro"	"» Pistol Secundar: [Five-Seven]"
+	}
+	"Item_Sidearm_Tec9"
+	{
+		"en"	"» Secondary Pistol: [Tec-9]"
+		"ro"	"» Pistol Secundar: [Tec-9]"
+	}
+	"Item_Sidearm_CZ"
+	{
+		"en"	"» Secondary Pistol: [CZ75-Auto]"
+		"ro"	"» Pistol Secundar: [CZ75-Auto]"
+	}
+	"Item_Heavy_Deagle"
+	{
+		"en"	"» Heavy Pistol: [Deagle]"
+		"ro"	"» Pistol Greu: [Deagle]"
+	}
+	"Item_Heavy_Revolver"
+	{
+		"en"	"» Heavy Pistol: [Revolver]"
+		"ro"	"» Pistol Greu: [Revolver]"
+	}
+	"Item_SMG_MP7"
+	{
+		"en"	"» Special SMG: [MP7]"
+		"ro"	"» SMG Special: [MP7]"
+	}
+	"Item_SMG_MP5"
+	{
+		"en"	"» Special SMG: [MP5-SD]"
+		"ro"	"» SMG Special: [MP5-SD]"
+	}
+	"Item_Rifle_M4A4"
+	{
+		"en"	"» Primary Weapon: [M4A4]"
+		"ro"	"» Arma Principala: [M4A4]"
+	}
+	"Item_Rifle_M4A1"
+	{
+		"en"	"» Primary Weapon: [M4A1-S]"
+		"ro"	"» Arma Principala: [M4A1-S]"
+	}
+	"Loadout_Updated"
+	{
+		"en"	"{darkred}[Moon]{default} Preferred weapon updated! The change applies starting next round."
+		"ro"	"{darkred}[Moon]{default} Arma preferata a fost actualizata! Schimbarea se aplica incepand de runda viitoare."
+	}
+}
