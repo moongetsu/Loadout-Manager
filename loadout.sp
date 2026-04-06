@@ -181,15 +181,25 @@ void Frame_CheckWeapon(any data)
 
 void PerformSwap(int client, int oldWeapon, const char[] newClassname)
 {
+    if (oldWeapon == INVALID_ENT_REFERENCE || !IsValidEntity(oldWeapon))
+        return;
+
     if (GetEntProp(oldWeapon, Prop_Data, "m_iHammerID") == 716)
         return;
 
-    RemoveEntity(oldWeapon);
+    char currentClass[64];
+    GetEntityClassname(oldWeapon, currentClass, sizeof(currentClass));
+    if (StrEqual(currentClass, newClassname))
+        return;
+
+    RemovePlayerItem(client, oldWeapon);
+    AcceptEntityInput(oldWeapon, "Kill");
 
     int newWeapon = GivePlayerItem(client, newClassname);
     if (newWeapon != -1)
     {
         SetEntProp(newWeapon, Prop_Data, "m_iHammerID", 716);
+        EquipPlayerWeapon(client, newWeapon);
     }
 }
 
